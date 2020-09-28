@@ -63,7 +63,7 @@ export class ProbeContainer extends Component {
                 <div className="col-md-6 p-0 bg-white h-md-100 loginarea">
                     <MapX ref='MapRef' initialPosition={this.state.init}
                         actived={this.state.selectedCoordinate}
-                        markerKey={this.state.unit}
+                        markerKey={this.state.init}
                         data={this.state.posmsg} />  
                 </div>
             </div>
