@@ -25,26 +25,6 @@ export class ProbeContainer extends Component {
        
         this.setState({ selectedCoordinate: true, init: { lat: lat, lng: lng }, unit: unit });
         
-        /*this.MapRef.current.setState({
-            selectedPlace: {
-                name: 'jkjkjk'
-            },
-            activeMarker: {
-                lat: lat, lng: lng
-            },
-            showingInfoWindow: true
-        });*/
-        //MapContainer.setCoordinates({
-       /* this.refs.MapRef.mapRef.current.setCoordinates({
-            selectedPlace: {
-                name: 'jkjkjk'
-            }
-        }, {
-            lat: lat, lng: lng
-        }, {}
-        )*/
-    
-        
     }
 
     render() {

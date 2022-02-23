@@ -10,14 +10,11 @@ export default class App extends Component {
 
   render () {
     return (
-    
-          < div >
-         
+      < div >      
           <Container>
             < ProbeContainer />
           </Container>
-      </div >
-        
+      </div >        
     );
   }
 }
