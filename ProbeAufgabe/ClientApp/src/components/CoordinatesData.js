@@ -8,9 +8,6 @@ export class CoordinatesData extends Component {
         super(props);
         this.state = { coordinates: [], loading: true };
     }
-
-    
-   
  
     entry = (lat, lng, unit) => {
         this.props.changed(lat, lng, unit);
